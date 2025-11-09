@@ -45,6 +45,6 @@ const user: {
     lastName: "Chakma",
     isMarried: false,
 };
-user.organization = "Programming Hero";
+// user.organization = "Programming Hero";
 
 console.log(user.organization);
