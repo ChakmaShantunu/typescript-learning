@@ -35,3 +35,10 @@ const numbers = [1, 2, 3];
 
 const newNumbers = [...numbers, 4];
 console.log(newNumbers);
+
+//Spread in function arguments
+
+const sum = (a: number, b: number, c: number): number => a + b + c;
+const num: [number, number, number] = [2, 4, 6];
+const result = sum(...num);
+console.log(result);
