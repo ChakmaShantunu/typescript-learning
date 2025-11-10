@@ -28,3 +28,10 @@ const sendInvite = (...friends: string[]) => {
 }
 
 sendInvite("Pintu", "Mintu", "Chintu", "Chulbul");
+
+//Spread with immutable update
+
+const numbers = [1, 2, 3];
+
+const newNumbers = [...numbers, 4];
+console.log(newNumbers);
