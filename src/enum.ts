@@ -11,7 +11,6 @@ enum UserRoles {
 };
 
 
-
 const canEdit = (role: UserRoles) => {
 
     if (role === UserRoles.admin || role === UserRoles.editor) {
