@@ -38,7 +38,10 @@ const getUserInfo = (user: NormalUser | AdminUser) => {
     if ('role' in user) {
         console.log(`this ${user.name} and his role is : ${user.role}`);
     }
+    else {
+        console.log(`${user.name}`);
+    }
 
 };
 
-getUserInfo({ name: 'Normal' })
+getUserInfo({ name: 'Normal', role: "Admin"});
