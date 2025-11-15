@@ -69,5 +69,4 @@ const shape1 = new Shape()
 const shape2 = new Circle(10)
 const shape3 = new Rectangle(10, 10);
 
-getArea(shape3);
-
+getArea(shape2);
